@@ -26,6 +26,8 @@ def go(args):
     # particular version of the artifact
     model_local_path = run.use_artifact(args.mlflow_model).download()
 
+    logger.info(model_local_path)
+    print(model_local_path)
     # Download test dataset
     test_dataset_path = run.use_artifact(args.test_dataset).file()
 
