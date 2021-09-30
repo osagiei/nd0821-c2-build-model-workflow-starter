@@ -566,6 +566,7 @@ you have trained your new model on the new data.
 
 ## Artifacts
 Wandb: https://wandb.ai/osagiei/nyc_airbnb/overview?workspace=user-osagiei
+
 Github: https://github.com/osagiei/nd0821-c2-build-model-workflow-starter.git
 
 ## License
